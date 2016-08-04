@@ -225,8 +225,31 @@ Intro
     text-decoration: none;
     color: #fff;
 }
-
-
+.mycontdown
+{
+    width: 620px !important;
+    margin: 0 auto;    
+}
+.flip-clock-label
+{
+    color: #fafafa !important;
+}
+/*coming soon*/
+h2 {
+  font-family: kaushan;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+}
+.col-sm-3 > div,span {
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+@media only screen and (max-width: 470px){
+  h2 {
+    font-size: 30px;
+  }
+}
 /* ==========================================================================
 New Site      
 ========================================================================== */

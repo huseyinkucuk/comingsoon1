@@ -11,10 +11,10 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="">
 
-    <!--Core CSS -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--Core CSS -->  
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet">
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -66,8 +66,7 @@
     
     
     
-    
-    
+       
     <!-- Start intro -->
     <section class="intro">
         <div class="page-logo"><a class="logo" href="#" alt="Purple Logo">Pavane</a></div>
@@ -76,6 +75,31 @@
         <div class="page-description">
             <p>We are working very hard on the new version of our site. It will bring a lot of new features. Stay tuned!</p>
         </div>
+        <br><br><br>
+
+        <div id="clockdiv">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <span class="days timearea"></span>
+                        <div>Days</div>
+                    </div>
+                    <div class="col-sm-3">
+                        <span class="hours timearea"></span>
+                        <div>Hours</div>
+                    </div>
+                    <div class="col-sm-3">
+                        <span class="minutes timearea"></span>
+                        <div>Minutes</div>
+                    </div>
+                    <div class="col-sm-3">
+                        <span class="seconds timearea"></span>
+                        <div>Seconds</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="page-down">
             <a href="#new-site" class="down-btn"><i class="fa fa-arrow-circle-o-down"></i></a>
         </div>
@@ -342,9 +366,8 @@
 
 
     <!-- For pages load more  faster, placed js at the end of the document. -->
-    <!--Core js-->
-    <script src="js/jquery.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
 </body>
 
